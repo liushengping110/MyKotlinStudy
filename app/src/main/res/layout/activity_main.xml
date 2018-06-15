@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="wizorle.mykotlin.MainActivity">
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表"
+        />
+
+    <Button
+        android:id="@+id/btn_jhqq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="聚合网络请求"
+        />
+
+    <Button
+        android:id="@+id/btn_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不规则ViewPager"
+        />
+
+    <Button
+        android:id="@+id/btn_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView的封装BaseAdapter测试"
+        />
+    <Button
+        android:id="@+id/btn_recyler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecylerView的封装BaseAdapter测试"
+        />
+
+    <Button
+        android:id="@+id/btn_ViewPager_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout+viewPager+fragment的BaseAdapter测试"
+        />
+    <Button
+        android:id="@+id/btn_ViewPager_Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片的ViewPager显示测试"
+        />
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVP测试"
+        />
+
+</LinearLayout>
