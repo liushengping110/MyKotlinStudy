@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--字体大小-->
+    <dimen name="text_samll">12sp</dimen>
+    <dimen name="text_cs">14sp</dimen>
+    <dimen name="text_center">15sp</dimen>
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="text_content">16sp</dimen>
+</resources>

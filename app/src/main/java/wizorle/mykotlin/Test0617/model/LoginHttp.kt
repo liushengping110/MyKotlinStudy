@@ -25,9 +25,4 @@ class LoginHttp(var dataBack: DataBack){
             }
         },LoginBack::class.java )
     }
-
-
-
-
-
 }

@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context="wizorle.mykotlin.MainActivity">
 
+
+
     <Button
         android:id="@+id/btn_list"
         android:layout_width="match_parent"
@@ -60,5 +62,20 @@
         android:layout_height="wrap_content"
         android:text="MVP测试"
         />
+
+    <Button
+        android:id="@+id/btn_wh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewPager+Fragment"
+        />
+
+    <Button
+        android:id="@+id/btn_dzs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试布局加载"
+        />
+
 
 </LinearLayout>

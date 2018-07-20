@@ -1,9 +1,6 @@
 package wizorle.mykotlin.Test0614
 
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
-import android.widget.LinearLayout
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_testrecylerview.*
 import wizorle.mykotlin.R
 import wizorle.mykotlin.Test0613.Data

@@ -54,7 +54,7 @@ class ViewPagerFragActivity:BaseActivity(){
                 }
             }
             viewpager.setOffscreenPageLimit(2)
-            tab_layout.setupWithViewPager(viewpager)
+//            tab_layout.setupWithViewPager(viewpager)
             //无需设置标题，调用下面代码
 //            adapter=ViewPagerBaseAdapter(supportFragmentManager,list!!)
 //            viewpager.adapter=adapter

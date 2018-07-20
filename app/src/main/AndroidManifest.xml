@@ -31,7 +31,9 @@
         <activity android:name=".Test0616.ImageViewPagerActivity"/>
         <activity android:name=".Test0616.ImageOnClickctivity"/>
         <activity android:name=".Test0617.view.MvpTestActivity"/>
-        <activity android:name=".Test0618.TestImageLoadActivity"/>
+        <activity android:name=".Test0618.WeiHuoActivity"/>
+        <activity android:name=".Test0710.TestActivity"/>
+        <activity android:name=".Test0710.Test"/>
     </application>
 
 </manifest>

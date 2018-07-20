@@ -1,13 +1,9 @@
 package wizorle.mykotlin;
 
 import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
-
-import java.lang.ref.WeakReference;
 
 import wizorle.mykotlin.Test0608.ListViewActivity;
 import wizorle.mykotlin.Test0611.NetDataActivity;
@@ -17,7 +13,9 @@ import wizorle.mykotlin.Test0614.RecylerViewActivity;
 import wizorle.mykotlin.Test0615.ViewPagerFragActivity;
 import wizorle.mykotlin.Test0616.ImageViewPagerActivity;
 import wizorle.mykotlin.Test0617.view.MvpTestActivity;
-import wizorle.mykotlin.Test0618.TestImageLoadActivity;
+import wizorle.mykotlin.Test0618.WeiHuoActivity;
+import wizorle.mykotlin.Test0710.TestActivity;
+import wizorle.mykotlin.Test0710.Test;
 
 
 /**
@@ -85,7 +83,25 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_mvp).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this, TestImageLoadActivity.class);
+                Intent intent=new Intent(MainActivity.this, MvpTestActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btn_wh).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, WeiHuoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        findViewById(R.id.btn_dzs).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent intent=new Intent(MainActivity.this, turntest.class);
+                Intent intent=new Intent(MainActivity.this, Test.class);
                 startActivity(intent);
             }
         });
